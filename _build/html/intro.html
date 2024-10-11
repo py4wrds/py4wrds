@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to your Jupyter Book &#8212; My sample book</title>
+    <title>Python for Water Resources Data Science &#8212; PY4WRDS</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -57,12 +57,10 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
+    <link rel="next" title="0. Pre-course setup" href="0-pre-course-setup.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -156,8 +154,8 @@
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="_static/logo.png" class="logo__image only-light" alt="PY4WRDS - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="PY4WRDS - Home"/>`);</script>
   
   
 </a></div>
@@ -174,18 +172,16 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
-                </a>
-            </li>
-        </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0-pre-course-setup.html">0. Pre-course setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-getting-started.html">1. Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-python-fundamentals-i.html">2. Python fundamentals I</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-python-fundamentals-ii.html">3. Python fundamentals II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-data-science-modules.html">4. Python data science modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-geospatial-python.html">5. Geospatial python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-water-resources-data-science.html">6. Water resources data science</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-interactive-visualization.html">7. Interactive visualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8-version-control-with-git.html">8. Version control with git</a></li>
 </ul>
 
     </div>
@@ -227,53 +223,6 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
 
 
 
@@ -358,7 +307,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -369,11 +320,23 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Python for Water Resources Data Science</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intro">Intro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules">Modules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dev-status">Dev status</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dev-setup">Dev setup</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,20 +346,117 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Link to this heading">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="python-for-water-resources-data-science">
+<h1>Python for Water Resources Data Science<a class="headerlink" href="#python-for-water-resources-data-science" title="Link to this heading">#</a></h1>
+<p>Home page.</p>
+<section id="intro">
+<h2>Intro<a class="headerlink" href="#intro" title="Link to this heading">#</a></h2>
+<p>Welcome</p>
+</section>
+<section id="modules">
+<h2>Modules<a class="headerlink" href="#modules" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0-pre-course-setup.html">0. Pre-course setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-getting-started.html">1. Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-python-fundamentals-i.html">2. Python fundamentals I</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-python-fundamentals-ii.html">3. Python fundamentals II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-data-science-modules.html">4. Python data science modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-geospatial-python.html">5. Geospatial python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-water-resources-data-science.html">6. Water resources data science</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-interactive-visualization.html">7. Interactive visualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8-version-control-with-git.html">8. Version control with git</a></li>
 </ul>
 </div>
+</section>
+<section id="learning-objectives">
+<h2>Learning objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Master common commands, data types, and data dictionaries.</p></li>
+<li><p>Establish best coding practices for managing data and scripts.</p></li>
+<li><p>Master “if/else” statements “for” and “while” loops, and other conditional statements.</p></li>
+<li><p>Write clear functions and documentation to keep code clean and organized.</p></li>
+<li><p>Modularize and disseminate clean codes to facilitate integration and re use with other projects.</p></li>
+<li><p>Analyze model error metrics against observed data.</p></li>
+<li><p>Understand and exploit object-oriented programming.</p></li>
+<li><p>Work with key packages including pandas, numpy, matplotlib, jupyter, etc.</p></li>
+<li><p>Set up and navigate Python integrated development environments such as Jupyter Notebook/Lab, Spyder, Visual Studio Code, Sublime Text, etc</p></li>
+<li><p>Create, run, and disseminate virtual conda environments.</p></li>
+<li><p>Use packages like Numpy, matplotlib, hydrostats, and Pulp for linear programming and matrix multiplication, specifically to optimize water allocations using DWRAT.</p></li>
+<li><p>Develop plots and clear visualizations.</p></li>
+<li><p>Use Jupyter Notebooks or other markdown tools to seamlessly embed Python code with documentation and publish it.</p></li>
+<li><p>Use Git and GitHub for backing up code and collaboration with colleagues</p></li>
+</ul>
+</section>
+<section id="dev-status">
+<h2>Dev status<a class="headerlink" href="#dev-status" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Module</p></th>
+<th class="head"><p>Who</p></th>
+<th class="head"><p>Status</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0. Pre-course</p></td>
+<td><p>AN</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-odd"><td><p>1. Getting started</p></td>
+<td><p>AA</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-even"><td><p>2. Python I</p></td>
+<td><p>AA</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-odd"><td><p>3. Python II</p></td>
+<td><p>AN</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-even"><td><p>4. DS modules</p></td>
+<td><p>AA</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-odd"><td><p>5. Geo python</p></td>
+<td><p>AN</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-even"><td><p>6. Water DS</p></td>
+<td><p>AA</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-odd"><td><p>7. Interactive viz</p></td>
+<td><p>AN</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-even"><td><p>8. Git</p></td>
+<td><p>AN</p></td>
+<td><p>Not started</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">intro.md</span></code></p></td>
+<td><p>AA</p></td>
+<td><p>Not started</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="dev-setup">
+<h2>Dev setup<a class="headerlink" href="#dev-setup" title="Link to this heading">#</a></h2>
+<p>Environment setup</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:py4wrds/py4wrds.git
+<span class="nb">cd</span><span class="w"> </span>py4wrds
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>py4wrds<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.12
+conda<span class="w"> </span>activate<span class="w"> </span>py4wrds
+pip<span class="w"> </span>install<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+<p>Build site locally</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>build<span class="w"> </span>.
+</pre></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -430,11 +490,11 @@ It does not go in-depth into any particular topic - check out <a class="referenc
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="markdown.html"
+       href="0-pre-course-setup.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown Files</p>
+        <p class="prev-next-title">0. Pre-course setup</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -445,6 +505,25 @@ It does not go in-depth into any particular topic - check out <a class="referenc
             
             
               
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intro">Intro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules">Modules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dev-status">Dev status</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dev-setup">Dev setup</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
             
           </div>
           <footer class="bd-footer-content">
@@ -454,7 +533,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Aakash Ahamed and Andrew Nisbet
 </p>
 
   </div>
@@ -464,7 +543,7 @@ By The Jupyter Book Community
 
   <p class="copyright">
     
-      © Copyright 2023.
+      © Copyright 2024.
       <br/>
     
   </p>
