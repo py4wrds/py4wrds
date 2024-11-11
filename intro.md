@@ -35,8 +35,8 @@ Welcome
 
 | Module                  | Who | Status        |
 | ----------------------- | --- | ------------- |
-| 0. Pre-course           | AA  | Not started   |
-| 1. Getting started      | AA  | Not started   |
+| 0. Pre-course           | AN  | Not started   |
+| 1. Getting started      | AA  | Started   |
 | 2. Python I             | AA  | Not started   |
 | 3. Python II            | AN  | Not started   |
 | 4. DS modules           | AA  | Not started   |
@@ -57,7 +57,7 @@ git clone git@github.com:py4wrds/py4wrds.git
 cd py4wrds
 conda create -n py4wrds python=3.12
 conda activate py4wrds
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Build site locally
