@@ -1,4 +1,4 @@
-name: py4wds
+name: py4wrds
 channels:
   - conda-forge
 dependencies:
