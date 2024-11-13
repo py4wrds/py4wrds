@@ -33,3 +33,10 @@ Adding new dependencies.
 # conda-forge.
 conda env update --file environment.yml --prune
 ```
+
+
+I like this setup for auto-building the book whenever the file I'm working on has changed:
+```bash
+pip install watchdog
+pip install https://github.com/joh/when-changed/archive/master.zip
+when-changed -1 -s ./0-pre-course-setup.ipynb jupyter-book build .
