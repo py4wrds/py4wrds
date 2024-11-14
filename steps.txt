@@ -1,0 +1,40 @@
+
+* Download system installer
+* Double click VSCodeSetup-x64-1.95.2.exe
+* Accept agreement
+* Accept default desination location
+* Accept start menu folder name
+* Accept default additional tasks (yes add to path and register for file types, no open with code context menu)
+
+* Download user installer
+* VSCodeUserSetup-x64-1.95.2.exe
+* Otherwise same
+
+* Launch VS code
+* Fine to click mark done
+
+* Visit anaconda
+* Download windows installer
+* Click Anaconda3-2024.10-1-Windows-x86_64.exe
+* Agree to toerms
+* Accept default (install for just me)
+* Accept default options
+* No need to launch anaconda navigator, we won't be uising it.
+
+
+
+
+
+
+Anaconda3-2024.10-1-Windows-x86_64.exe
+
+* Open Anaconda PowerShell Prompt (not Anaconda Prompt)\
+* Run help (maybe not needed)
+
+
+
+
+
+
+
+
