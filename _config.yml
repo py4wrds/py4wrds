@@ -29,7 +29,7 @@ repository:
 html:
   home_page_in_navbar: false
 
-
+# Remove copyright (reduce visual noise).
 sphinx:
   config:
     html_show_copyright: false
