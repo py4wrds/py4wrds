@@ -3,7 +3,6 @@
 
 title: PY4WRDS
 author: Aakash Ahamed and Andrew Nisbet
-copyright: "2024"
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -29,3 +28,8 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   home_page_in_navbar: false
+
+
+sphinx:
+  config:
+    html_show_copyright: false
