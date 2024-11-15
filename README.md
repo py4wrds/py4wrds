@@ -31,7 +31,10 @@ Adding new dependencies.
 # Add the new package to environment.yaml. Prefer adding to the conda section so conda can resolve
 # all those dependencies together. Fallback to the pip section if the package isn't supported in 
 # conda-forge.
+#
+# Then you need to regenerate requirements.txt, which is used by netlify.
 conda env update --file environment.yml --prune
+pip list --format=freeze > requirements.txt
 ```
 
 
