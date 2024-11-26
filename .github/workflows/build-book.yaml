@@ -1,6 +1,12 @@
 name: Build and Deploy to Netlify
 on:
   push:
+
+# Only one build at a time per branch.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -23,4 +29,5 @@ jobs:
         shell: bash -el {0}
         run: conda info
       - name: Build book
+        shell: bash -el {0}
         run: jupyter-book build ./0-pre-course-setup.ipynb
