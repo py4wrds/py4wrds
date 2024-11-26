@@ -1,10 +1,9 @@
 name: Build and Deploy to Netlify
 on:
   push:
-  pull_request:
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Cache conda
