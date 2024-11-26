@@ -1,0 +1,18 @@
+name: py4wrds
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - numpy>=2.0.0
+  - pandas>=2.0.0
+  - pip
+  - pip:
+      - humanize
+      - ipywidgets
+      - jupyter-book
+      - jupyterlab
+      - matplotlib
+      - notebook
+      - pillow
+      - requests
+      - seaborn

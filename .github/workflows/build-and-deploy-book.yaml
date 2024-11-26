@@ -1,0 +1,54 @@
+name: Build and Deploy to Netlify
+on:
+  push:
+
+# Only one build at a time per branch.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+
+  build:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache conda
+        id: cache
+        uses: actions/cache@v3
+        env:
+          CACHE_NUMBER: 1
+        with:
+          path: ${{ env.CONDA }}/envs
+          key: ${{ env.CACHE_NUMBER }}-hashFiles('environment.yml')}}
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: py4wrds
+          use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+          auto-activate-base: false
+      - name: Update environment
+        run: conda env update -n py4wrds -f environment.yml
+        if: steps.cache.outputs.cache-hit != 'true'
+      - name: Activate environment
+        run: conda activate py4wrds
+      - name: Conda info
+        run: conda info
+      - name: Build book
+        run: jupyter-book build .
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: './_build/html'
+          production-branch: develop
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: true
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
