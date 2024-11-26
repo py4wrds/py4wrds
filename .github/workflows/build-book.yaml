@@ -1,0 +1,25 @@
+name: Build and Deploy to Netlify
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache conda
+        uses: actions/cache@v3
+        env:
+          CACHE_NUMBER: 0
+        with:
+          path: ${{ env.CONDA }}/envs
+          key: ${{ env.CACHE_NUMBER }}-hashFiles('environment.yml')}}
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: py4wrds
+          environment-file: environment.yml
+          use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+          # auto-activate-base: false
+      - name: Conda info
+        shell: bash -el {0}
+        run: conda info
