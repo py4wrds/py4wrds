@@ -37,7 +37,7 @@ jobs:
       - name: Conda info
         run: conda info
       - name: Build book
-        run: jupyter-book build ./0-pre-course-setup.ipynb
+        run: jupyter-book build .
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
