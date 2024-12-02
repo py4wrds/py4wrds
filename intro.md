@@ -1,10 +1,14 @@
 # Python for Water Resources Data Science
 
-Home page.
+Welcome to the py4wrds course material!
 
-## Intro
+We're working on building out the all modules, check back closer to the course date for the finialized material!
 
-Welcome
+<!-- TODO: subtitle. -->
+
+<!-- ## Intro -->
+
+<!-- TOOD: Welcome intro -->
 
 ## Modules
 
