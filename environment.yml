@@ -6,7 +6,6 @@ dependencies:
   - numpy>=2.0.0
   - openpyxl
   - pandas>=2.0.0
-  - python-calamine
   - xlrd
   - pip
   - pip:
