@@ -2,11 +2,12 @@ name: py4wrds
 channels:
   - conda-forge
 dependencies:
-  - geopandas
+  - beautifulsoup
+  - html5lib
   - numpy>=2.0.0
   - openpyxl
   - pandas>=2.0.0
-  - xlrd
   - pip
+  - python>=3.12,<3.13
   - pip:
       - jupyter-book
