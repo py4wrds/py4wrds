@@ -2,9 +2,11 @@ name: py4wrds
 channels:
   - conda-forge
 dependencies:
+  - matplotlib
   - numpy>=2.0.0
   - openpyxl
   - pandas>=2.0.0
   - pip
+  - seaborn
   - pip:
       - jupyter-book
