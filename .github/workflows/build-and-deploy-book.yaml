@@ -29,6 +29,7 @@ jobs:
           activate-environment: py4wrds
           use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
           auto-activate-base: false
+          python-version: 3.12
       - name: Update environment
         run: conda env update -n py4wrds -f environment.yml
         if: steps.cache.outputs.cache-hit != 'true'
