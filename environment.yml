@@ -2,7 +2,8 @@ name: py4wrds
 channels:
   - conda-forge
 dependencies:
-  - pandas>=2.0.0
+  - pandas
+  - matplotlib
   - pip
   - pip:
       - jupyter-book
