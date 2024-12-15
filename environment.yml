@@ -4,6 +4,8 @@ channels:
 dependencies:
   - pandas
   - matplotlib
+  - numpy
+  - openpyxl
   - pip
   - pip:
       - jupyter-book
