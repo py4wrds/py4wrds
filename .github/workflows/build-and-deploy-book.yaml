@@ -37,6 +37,8 @@ jobs:
         run: conda activate py4wrds
       - name: Conda info
         run: conda info
+      - name: Conda fix pip
+        run: conda upgrade -y -c conda-forge pip
       - name: Build book
         run: jupyter-book build .
       - name: Deploy to Netlify
