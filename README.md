@@ -5,7 +5,7 @@ Aakash, Andrew, Rich
 Credits and Acknowledgements - Parts of these materials were sourced from:
 * Stanford's "Software Development for Scientists and Engineers": https://github.com/CME211
 * NASA Goddard's "Python Bootcamp": https://github.com/kialio/gsfcpyboot/tree/master
-
+* Professor Dr. Qiusheng Wu's Introduction to GIS Programming class: https://geog-312.gishub.org/index.html
 
 # Development
 
