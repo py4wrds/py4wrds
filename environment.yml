@@ -6,5 +6,12 @@ dependencies:
   - matplotlib
   - numpy
   - openpyxl
+  - xarray
+  - jupyter
+  - geopandas
+  - rasterio
+  - rioxarray
+  - netcdf4 
+  - h5netcdf
   - pip:
       - jupyter-book
