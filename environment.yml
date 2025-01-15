@@ -2,16 +2,19 @@ name: py4wrds
 channels:
   - conda-forge
 dependencies:
-  - pandas
+  - geopandas
+  - h5netcdf
+  - jupyter
+  - leafmap
+  - localtileserver
   - matplotlib
+  - netcdf4 
   - numpy
   - openpyxl
-  - xarray
-  - jupyter
-  - geopandas
+  - pandas
+  - pip
   - rasterio
   - rioxarray
-  - netcdf4 
-  - h5netcdf
+  - xarray
   - pip:
       - jupyter-book
