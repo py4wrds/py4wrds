@@ -4,15 +4,15 @@ channels:
 dependencies:
   - geopandas
   - h5netcdf
-  - ipyleaflet>=0.19.2
+  - ipyleaflet
   - jupyter
-  - leafmap>=0.35.11
+  - leafmap
   - localtileserver
   - matplotlib
   - netcdf4 
-  - numpy>=2.0.0
+  - numpy 2.*
   - openpyxl
-  - pandas>=2.0.0
+  - pandas 2.*
   - pip
   - rasterio
   - rioxarray
