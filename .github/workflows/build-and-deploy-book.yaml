@@ -16,10 +16,10 @@ jobs:
         shell: bash -el {0}
     steps:
       - uses: actions/checkout@v4
-      - name: Fix urllib3
-        run: |
-          pip uninstall urllib3
-          pip install urllib3
+      # - name: Fix urllib3
+      #   run: |
+      #     pip uninstall urllib3
+      #     pip install urllib3
       - name: Cache conda
         id: cache
         uses: actions/cache@v3
@@ -41,6 +41,8 @@ jobs:
         run: conda activate py4wrds
       - name: Conda info
         run: conda info
+      - name: Version dump
+        run: conda list
       - name: Build book
         run: jupyter-book build .
       - name: Deploy to Netlify

@@ -5,6 +5,7 @@ dependencies:
   - geopandas
   - h5netcdf
   - jupyter
+  - jupyter-book 
   - leafmap
   - localtileserver
   - matplotlib
@@ -16,5 +17,3 @@ dependencies:
   - rasterio
   - rioxarray
   - xarray
-  - pip:
-    - jupyter-book
