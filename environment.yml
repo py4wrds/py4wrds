@@ -10,9 +10,9 @@ dependencies:
   - localtileserver
   - matplotlib
   - netcdf4 
-  - numpy
+  - numpy>=2.0.0
   - openpyxl
-  - pandas
+  - pandas>=2.0.0
   - pip
   - rasterio
   - rioxarray
