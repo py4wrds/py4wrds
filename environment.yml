@@ -9,7 +9,7 @@ dependencies:
   - localtileserver
   - matplotlib
   - netcdf4 
-  - numpy 2.*
+  - numpy >=1.26.4
   - openpyxl
   - pandas 2.*
   - pip
