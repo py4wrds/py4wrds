@@ -5,14 +5,13 @@ dependencies:
   - geopandas
   - h5netcdf
   - jupyter
-  - jupyter-book 
-  - leafmap>=0.42.0
+  - leafmap
   - localtileserver
   - matplotlib
   - netcdf4 
-  - numpy>=2.0.0
+  - numpy 2.*
   - openpyxl
-  - pandas>=2.0.0
+  - pandas 2.*
   - pip
   - rasterio
   - rioxarray
