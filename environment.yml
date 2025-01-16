@@ -6,7 +6,7 @@ dependencies:
   - h5netcdf
   - jupyter
   - jupyter-book 
-  - leafmap
+  - leafmap>=0.42.0
   - localtileserver
   - matplotlib
   - netcdf4 
