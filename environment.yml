@@ -13,7 +13,7 @@ dependencies:
   - openpyxl
   - pandas>=2.0.0
   - pip
-  - python>=3.12,<3.31
+  - python>=3.12
   - rasterio
   - rioxarray
   - xarray
