@@ -42,3 +42,5 @@ pip install watchdog
 pip install https://github.com/joh/when-changed/archive/master.zip
 when-changed -1 -s ./0-pre-course-setup.ipynb jupyter-book build .
 ```
+
+Files places in `assets` will be available on the py4wrds domain. So `assets/raster.tif` will be deployed to `https://py4wrds.com/raster.tif`.
