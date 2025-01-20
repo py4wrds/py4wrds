@@ -7,7 +7,7 @@ dependencies:
   - jupyter
   - leafmap>=0.39.0
   - localtileserver
-  - matplotlib
+  - matplotlib>=3.6.0
   - netcdf4 
   - numpy>=2.0.0
   - openpyxl
