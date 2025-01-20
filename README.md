@@ -14,7 +14,7 @@ Environment setup
 ```bash
 git clone git@github.com:py4wrds/py4wrds.git
 cd py4wrds
-conda create -f environment.yaml
+conda env create -f environment.yml
 conda activate py4wrds
 ```
 
