@@ -2,19 +2,24 @@
 
 Welcome to the py4wrds course material!
 
-We're working on building out the all modules, check back closer to the course date for the finialized material!
+## About the py4wrds course
 
-<!-- TODO: subtitle. -->
+This course is most relevant for folks who work with data, no matter their role. You'll learn about fundamentals of Python and software development, and gain practice in using these skills for data science in the water resources domain.
 
-<!-- ## Intro -->
-
-<!-- TOOD: Welcome intro -->
 
 ## Modules
 
 ```{tableofcontents}
 ```
 
+## Code of conduct
+
+We will follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct) throughout our workshop.
+
+
+## Source code
+
+The source code used to build this website can be found at the p4wrds [GitHub repo](https://github.com/py4wrds/py4wrds/).
 
 
 ## Learning objectives
@@ -36,3 +41,6 @@ We're working on building out the all modules, check back closer to the course d
 
 
 
+## License
+
+Software is open-source, provided under the [MIT License](https://opensource.org/license/mit).

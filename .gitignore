@@ -166,3 +166,7 @@ cython_debug/
 _build
 .vscode
 tmp
+exported_map_analysis.html
+ca_counties.geojson
+data/clipped.tif
+data/clipped_reprojected.tif
