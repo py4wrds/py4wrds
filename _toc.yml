@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: 0-pre-course-setup.ipynb
+- file: 1-getting-started.ipynb
+- file: 2-python-fundamentals-i.ipynb
+- file: 3-python-fundamentals-ii.ipynb
+- file: 4-data-science-modules.ipynb
+- file: 5-geospatial-python.ipynb
+- file: 6-water-resources-data-science.ipynb
+- file: 7-interactive-visualization.ipynb
+- file: 8-version-control-with-git.ipynb

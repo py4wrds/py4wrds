@@ -1,0 +1,19 @@
+name: py4wrds
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - h5netcdf
+  - jupyter
+  - leafmap>=0.39.0
+  - localtileserver
+  - matplotlib>=3.6.0
+  - netcdf4 
+  - numpy>=2.0.0
+  - openpyxl
+  - pandas>=2.0.0
+  - pip
+  - python>=3.12
+  - rasterio
+  - rioxarray
+  - xarray
