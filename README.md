@@ -1,13 +1,12 @@
 # Py4wrds (Python 4 Water Resources Data Science)
 
+This repository builds the jupyter-book website hosted at [py4wrds.com](https://www.py4wrds.com).
+
 Aakash, Andrew, Rich 
 
-Credits and Acknowledgements - Parts of these materials were sourced from:
-* Stanford's "Software Development for Scientists and Engineers": https://github.com/CME211
-* NASA Goddard's "Python Bootcamp": https://github.com/kialio/gsfcpyboot/tree/master
-* Professor Dr. Qiusheng Wu's Introduction to GIS Programming class: https://geog-312.gishub.org/index.html
 
-# Development
+
+## Development
 
 Environment setup
 
@@ -23,7 +22,6 @@ Build site locally
 ```bash
 jupyter-book build .
 ```
-
 
 Adding new dependencies.
 
@@ -44,3 +42,12 @@ when-changed -1 -s ./0-pre-course-setup.ipynb jupyter-book build .
 ```
 
 Files places in `assets` will be available on the py4wrds domain. So `assets/raster.tif` will be deployed to `https://py4wrds.com/raster.tif`.
+
+
+## Credits and Acknowledgements 
+
+Parts of these materials were sourced from:
+
+* Stanford's "Software Development for Scientists and Engineers": https://github.com/CME211
+* NASA Goddard's "Python Bootcamp": https://github.com/kialio/gsfcpyboot/tree/master
+* Professor Dr. Qiusheng Wu's Introduction to GIS Programming class: https://geog-312.gishub.org/index.html
