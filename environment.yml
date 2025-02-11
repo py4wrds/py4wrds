@@ -16,4 +16,5 @@ dependencies:
   - python>=3.12
   - rasterio
   - rioxarray
+  - tokenize-rt>=3.2.0
   - xarray
