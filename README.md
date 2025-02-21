@@ -8,7 +8,7 @@ Aakash, Andrew, Rich
 
 ## Development
 
-Environment setup
+### Environment setup
 
 ```bash
 git clone git@github.com:py4wrds/py4wrds.git
@@ -17,13 +17,13 @@ conda env create -f environment.yml
 conda activate py4wrds
 ```
 
-Build site locally
+### Build site locally
 
 ```bash
 jupyter-book build .
 ```
 
-Adding new dependencies.
+### Adding new dependencies.
 
 ```bash
 # Add the new package to environment.yaml. Prefer adding to the conda section so conda can resolve
@@ -33,6 +33,8 @@ conda env update --file environment.yml --prune
 ```
 
 
+### Autobuild
+
 I like this setup for auto-building the book whenever the file I'm working on has changed:
 
 ```bash
@@ -41,7 +43,16 @@ pip install https://github.com/joh/when-changed/archive/master.zip
 when-changed -1 -s ./0-pre-course-setup.ipynb jupyter-book build .
 ```
 
+### Assets
+
 Files places in `assets` will be available on the py4wrds domain. So `assets/raster.tif` will be deployed to `https://py4wrds.com/raster.tif`.
+
+
+### Code formatting
+
+```bash
+python -m black --line-length 140 -t py311  ./*.ipynb
+```
 
 
 ## Credits and Acknowledgements 
