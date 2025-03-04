@@ -2,6 +2,7 @@ name: py4wrds
 channels:
   - conda-forge
 dependencies:
+  - certifi
   - geopandas
   - h5netcdf
   - jupyter
@@ -13,6 +14,7 @@ dependencies:
   - openpyxl
   - pandas>=2.0.0
   - pip
+  - pip-system-certs
   - python>=3.12
   - rasterio
   - rioxarray
