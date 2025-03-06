@@ -1,8 +1,5 @@
 ONE_DAY_IN_SECONDS = 86_400
 
-def feet_to_m(distance):
-    """Convert feet to metres approximately."""
-    return distance / 3
 
 
 def acre_feet_to_m3(volume_acre_feet):
