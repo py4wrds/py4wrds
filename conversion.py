@@ -3,7 +3,7 @@ ONE_DAY_IN_SECONDS = 86_400
 
 def acre_feet_to_m3(volume_acre_feet):
     """Converts volume in US acre-feet to SI m³."""
-    volume_m3 = volume_acre_feet * 1_233.482
+    volume_m3 = volume_acre_feet * 1_233
     return volume_m3
 
 def cms_to_cfs(flow_cms):
