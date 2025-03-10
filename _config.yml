@@ -20,17 +20,32 @@ bibtex_bibfiles:
   - references.bib
 
 # Information about where the book exists on the web
-repository:
-  url: https://github.com/py4wrds/py4wrds/  # Online location of your book
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+# repository:
+#   url: https://github.com/py4wrds/py4wrds/  # Online location of your book
+#   repository_branch: main  # Which branch of the repository should be used when creating links (optional)
+#   # use_repository_button: true
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   home_page_in_navbar: false
 
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
 # Remove copyright (reduce visual noise).
 sphinx:
   config:
     html_show_copyright: false
     html_extra_path: ["assets"]
+    html_theme_options:
+      repository_url: https://github.com/py4wrds/py4wrds
+      repository_branch: main # Specify the correct branch for theme options
+      use_repository_button: true
+      launch_buttons:
+        {
+          binderhub_url: "https://mybinder.org",
+          colab_url: "https://colab.research.google.com",
+          thebe: true,
+        }
+
