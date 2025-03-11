@@ -2,7 +2,7 @@
 
 This repository builds the jupyter-book website hosted at [py4wrds.com](https://www.py4wrds.com).
 
-Andrew, Aakash, Rich 
+Aakash, Andrew, Rich 
 
 
 
