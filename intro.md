@@ -19,7 +19,7 @@ We will follow the [SFS Code of Conduct](https://freshwater-science.org/about/so
 
 ## Source code
 
-The source code used to build this website can be found at the p4wrds [GitHub repo](https://github.com/py4wrds/py4wrds/).
+The source code used to build this website can be found at the py4wrds [GitHub repo](https://github.com/py4wrds/py4wrds/).
 
 
 ## Learning objectives
@@ -34,7 +34,7 @@ The source code used to build this website can be found at the p4wrds [GitHub re
 - Work with key packages including pandas, numpy, matplotlib, jupyter, etc. 
 - Set up and navigate Python integrated development environments such as Jupyter Notebook/Lab, Spyder, Visual Studio Code, Sublime Text, etc 
 - Create, run, and disseminate virtual conda environments. 
-- Use packages like Numpy, matplotlib, hydrostats, and Pulp for linear programming and matrix multiplication, specifically to optimize water allocations using DWRAT. 
+- Use packages like Numpy, matplotlib, and other scientific Python tools for data analysis and visualization. 
 - Develop plots and clear visualizations. 
 - Use Jupyter Notebooks or other markdown tools to seamlessly embed Python code with documentation and publish it. 
 - Use Git and GitHub for backing up code and collaboration with colleagues

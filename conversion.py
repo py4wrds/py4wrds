@@ -7,6 +7,6 @@ def acre_feet_to_m3(volume_acre_feet):
     return volume_m3
 
 def cms_to_cfs(flow_cms):
-    """Converts flow rate in cubic feet per second to cubic metres per second."""
+    """Converts flow rate in cubic metres per second to cubic feet per second."""
     flow_cfs = flow_cms * 35.3146662
     return flow_cfs
